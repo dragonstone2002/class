@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션효과</title>
+
+    <link type="text/css" rel="stylesheet" href="mycss.css">
+
+    <style>
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+        
+        div, #img1{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation: 5s img1;
+            animation-iteration-count: 10;
+        }
+        div, #img2{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation: 5s img2;
+            animation-iteration-count: 10;
+        }
+
+        @keyframes img1{
+            0% {left: 0px; top: 0px;}
+            25% {left: 80px; top: 0px;}
+            50% {left: 160px; top: 0px;}
+            75% {left: 240px; top: 0px;}
+            100% {left: 320px; top: 0px;}
+        }
+
+        @keyframes img2{
+            0% {left: 0px; top: 0px;}
+            25% {left: 120px; top: 0px;}
+            50% {left: 120px; top: 0px;}
+            75% {left: 120px; top: 0px;}
+            100% {left: 120px; top: 0px;}
+        }
+    </style>
+
+</head>
+<body>
+    
+
+
+    <header>
+        <h1>my blog</h1>
+    </header>
+        
+    <nav>
+        <h1>click me</h1>
+        <ul>
+            <li> <a href="index.html">home</a></li>
+            <li> <a href="1.html">how are you?</a></li>
+            <li> <a href="2.html">why the long face?</a></li>
+            <li> <a href="3.html">have a nice day</a></li>
+            <li> <a href="myanime.html">rabbit and turtle</a></li>
+            <li> <a href="myanime2.html">box dance</a></li>
+        </ul>
+    
+    </nav>
+
+    <section>
+        <div><img id="img1" src="거북이.png"></div>
+        <div><img id="img2" src="토끼.png"></div>
+    </section>
+
+    <footer> <p>-Threr's no more truth out there than there is in the world I created for you.-</p> </footer>
+</body>
+</html>
