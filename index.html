@@ -3,101 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>아브아 플라워</title>
-    <link href="css/styles.css" rel="stylesheet" />
-
+    <title>나의 웹페이지</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        header {
+            background-color: olive;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            background-color: cadetblue;
+            color: white;
+            padding: 5px;
+        }
+        nav ul {
+            text-decoration: none;
+        }
+        nav ul li {
+            display: inline;
+            padding: 15px;
+        }
+        section {
+            background-color: salmon;
+            width: 65%;
+            float: left;
+        }
+        article {
+            background-color: white;
+        }
+        aside {
+            background-color: bisque;
+            width: 32%;
+            float: right;
+        }
+        footer {
+            background-color: lightsteelblue;
+            clear: both;
+        }
+        footer ul {
+            text-decoration: none;
+        }
+        footer ul li {
+            display: inline;
+            padding: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: blue;
+        }
+    </style>
 </head>
+
 <body>
 
-    <div class="navbar">
-      <a href="index.html" id="logo">
-        <img src="jpg/아브아플라워 로고.png" width="120">
-        </a>
-
-        <ul id="menu">
-          <li><a href="munE.html">문의</a></li>
-          <li><a href="Reser.html">예약확인</a></li>
-          <li><a href="login.html">로그인</a></li>
-        </ul>
-    </div>
-    <div class="header"></div>  
+        <header><h1>Vaggie Shop</h1></header>
     
-    <div class="products">
-      <h3>아브아 플라워</h3>
-      <div class="product-list">
-        <a href="Sflower.html" class="product">
-          <img src="jpg/s꽃다발.jpg" width="210">
-          <div class="product-name">기본(S) 꽃다발</div>
-          <div class="product-price">40,000~50,000</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/m꽃다발.jfif" width="210">
-          <div class="product-name">M 꽃다발</div>
-          <div class="product-price">60,000~90,000</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/L, XL 꽃다발.jfif" width="210">
-          <div class="product-name">L, XL 꽃다발</div>
-          <div class="product-price">100,000 이상~</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/15다발.jfif" width="215">
-          <div class="product-name">미니 꽃다발</div>
-          <div class="product-price">15,000/20,000/30,000</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/8꽃바구니.jfif" width="215">
-          <div class="product-name">M 꽃바구니/L 꽃바구니</div>
-          <div class="product-price">80,000~120,000/15만/20만</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/mini.jfif" width="225">
-          <div class="product-name">mini 꽃바구니</div>
-          <div class="product-price">50,000</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/M화병세트.jfif" width="225">
-          <div class="product-name">화병세트(M)</div>
-          <div class="product-price">70,000</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/S화병세트.jfif" width="225">
-          <div class="product-name">화병세트(S)</div>
-          <div class="product-price">45,000/55,000</div>
-        </a>
-        
-        <a href="Sflower.html" class="product">
-          <img src="jpg/센터피스.jfif" width="225">
-          <div class="product-name">화분 센터피스</div>
-          <div class="product-price">40,000</div>
-        </a>
-        <div class="clearfix"></div>
-      </div>
-    </div>
+        <nav>
+            <ul>
+                <li><a href="#fruits">Fresh Fruits</a></li>
+                <li><a href="#veggies">Fresh Vaggies</a></li>
+                <li><a href="#salad">Fresh Salad</a></li>
+                <li><a href="">Nuts and Seeds</a></li>
+                <li><a href="">Gift Boxes</a></li>
+            </ul>
+        </nav>
     
-    <div class="footer">
-      <a href="https://map.naver.com/p/entry/place/1240240040?placePath=%252Fhome%253Fentry%253Dplt&searchType=place&lng=128.6185627&lat=34.8900855&c=15.00,0,0,0,dh" target="_blank">
-        <img src="jpg/네이버로고색.png"height="20">
-      </a>
-      <a href="https://www.instagram.com/avoir.flower/" target="_blank">
-        <img src="jpg/인스타로고색.png"height="20">
-      </a>
-      <a href="https://blog.naver.com/avoir-flower" target="_blank">
-        <img src="jpg/네이버블로그색.png"height="20">
-      </a>
-      <br>
-      <p class="footerp">경남 거제시 서문로3길 22 아브아플라워</p><br>
-      <p class="footerp">10:00~20:00(일 10:00~19:00) 영업 매주 월요일 정기휴무</p>
-      <p class="footerp">영업시간 외 예약주문도 가능합니다! 문의주세요 :-)</p>
-    </div>
+        <section>
+            <img src="image/veggies.jpg" width="650" height="350">
+    
+        <p>"신선함을 당신의 식탁에!"<br>
+            매일 아침 들어오는 신선한 채소와 과일로 건강한 하루를 시작하세요<br>
+            저희 가게에서 자연의 맛을 만나보세요!<br></p>
+    
+        <article id="a01">
+        <h2 id="fruits">Fresh Fruits</h2>
+        <a href="apple.html" target="_blank"><img src="image/apple.jpg" width="150" height="150"></a>
+        <a href="banana.html" target="_blank"><img src="image/banana.jpg" width="150" height="150"></a>
+        <a href="berries.html" target="_blank"><img src="image/berries.jpg" width="150" height="150"></a>
+        <a href="orange.html" target="_blank"><img src="image/orange.jpg" width="150" height="150"></a>
+        <br>
+        </article>
+    
+        <article id="a02">
+        <h2 id="veggies">Fresh Veggies</h2>
+        <a href="apple.html" target="_blank"><img src="image/onion.jpg" width="150" height="150"></a>
+        <a href="banana.html" target="_blank"><img src="image/pumpkin.jpg" width="150" height="150"></a>
+        <a href="berries.html" target="_blank"><img src="image/tomato.jpg" width="150" height="150"></a>
+        <a href="orange.html" target="_blank"><img src="image/broccoli.jpg" width="150" height="150"></a>
+        <br>
+        </article>
+    
+        <article id="a03">
+        <h2 id="salad">Fresh Salads</h2>
+        <a href="apple.html" target="_blank"><img src="image/salad1.jpg" width="150" height="150"></a>
+        <a href="banana.html" target="_blank"><img src="image/salad2.jpg" width="150" height="150"></a>
+        <a href="berries.html" target="_blank"><img src="image/salad3.jpg" width="150" height="150"></a>
+        <a href="orange.html" target="_blank"><img src="image/pasta.jpg" width="150" height="150"></a>
+        <br>
+        </article>
+        </section>
+    
+        <aside>
+            <h3>광고</h3>
+            <h4>땅에서 식탁까지, 신선함 그대로</h4>
+            <p>가장 가까운 농장에서 바로 당신의 집으로!</p>
+            <img src="image/delivery.jpg" width="300"><br>
+            <img src="image/farm.jpg" width="300">
+            <p>오늘 수확한 신선한 야채와 채소를 매일 바로 배달해 드립니다.</p>
+            <ul>
+                <li>매일 아침 수확한 채소</li>
+                <li>현지 농장에서 직배송</li>
+                <li>환경을 생각한 로컬 푸드</li>
+                <li>신선도 100% 보장</li>
+                <li>주문 후 바로 배송</li>
+            </ul>
+        </aside>
+    
+        <footer>
+            <ul>
+                <li>회사소개</li>
+                <li>개인정보보호정책</li>
+                <li>인재채용</li>
+                <li>공지사항</li>
+                <li>Q&amp;A</li>
+            </ul>
+        </footer>
 
-
-  </body>
+</body>
 </html>
