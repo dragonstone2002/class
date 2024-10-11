@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI 계산기</title>
+
+    <script>
+        document.write("<h1>체질량 계산기</h1>");
+    </script>
+
+</head>
+<body>
+    <script>
+        let weight;
+        weight = prompt("체중을 입력하세요");
+        let height;
+        height = prompt("신장을 입력해주세요")/100;
+
+        document.write("신장: ");
+        document.write(height);
+        document.write("m 체중: ");
+        document.write(weight);
+        document.write("<br> BMI :");
+        document.write(weight/(height*height))
+
+    </script>
+</body>
+</html>
