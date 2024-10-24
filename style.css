@@ -51,7 +51,7 @@ nav ul li a{
 
 nav ul li a:hover{
     text-decoration: underline;
-    color: rgb(0, 136, 255);
+    color: indianred;
 }
 
 footer ul {
@@ -61,4 +61,24 @@ footer ul {
 footer ul li {
     display: inline;
     padding: 15px;
+}
+
+.hoverimg {
+    width: 150px;
+    height: 150px;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.hoverimg:hover {
+    width: 200px;
+    height: 200px;
+}
+
+.hoverimgtwo {
+    width: 450px;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.hoverimgtwo:hover {
+    width: 500px;
 }
