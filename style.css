@@ -1,0 +1,88 @@
+/* 기본 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* 그래프 컨테이너 스타일 */
+#graph-container {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.graph-bar {
+    width: 0;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: right;
+    color: white;
+    line-height: 30px;
+    padding-right: 5px;
+    overflow: hidden;
+    transition: width 2s ease-in-out;
+}
+
+.graph-bar.color-1 {
+    background-color: #FF6F61; /* 자몽색 */
+}
+
+.graph-bar.color-2 {
+    background-color: #87CEEB; /* 스카이블루 */
+}
+
+.graph-label {
+    text-align: left;
+    margin: 5px 0;
+}
+
+/* 결과 텍스트 */
+.result-text {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 제목 스타일 */
+#main-title {
+    font-size: 30px; /* 기본 제목 크기 */
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+/* '고양이'와 '강아지' 강조 */
+.highlight {
+    font-size: 40px; /* 강조된 텍스트 크기 */
+    color: #FF6F61; /* 강조 색상 (자몽색) */
+}
+
+/* 컨테이너 스타일 */
+.container {
+    max-width: 800px; /* 컨테이너의 최대 너비 설정 */
+    margin: 0 auto; /* 중앙 정렬 */
+    padding: 0 10%; /* 좌우 여백 추가 */
+    background-color: #fff; /* 중앙 배경 색상 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+    border-radius: 10px; /* 둥근 모서리 */
+    padding: 20px; /* 내부 여백 추가 */
+}
